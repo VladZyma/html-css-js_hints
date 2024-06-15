@@ -45,3 +45,35 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+/* ======================
+INPUT TYPE TEXT
+======================*/
+.form-text div {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.form-text label {
+  display: block;
+  margin-bottom: 1.2rem;
+}
+.form-text input {
+  width: 100%;
+  padding: 1.2rem;
+
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+
+  font-size: 1.8rem;
+  background-color: #fdf2e9;
+  color: #17aa12;
+}
+.form-text input::placeholder {
+  color: #1445e6;
+}
+
+.form-text input:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem rgba(76, 25, 216, 0.5);
+}
