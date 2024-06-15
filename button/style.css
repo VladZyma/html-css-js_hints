@@ -89,3 +89,23 @@ REGULAR BUTTON
   outline: none;
   box-shadow: 0 0 0 0.4rem #ccec18;
 }
+
+/* =====================
+BORDER LINIER GRADIENT
+========================*/
+.border-btn {
+  font-family: inherit;
+  cursor: pointer;
+
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  border-radius: 10px;
+
+  border: 5px solid transparent;
+  background: linear-gradient(#1753c2, #1753c2) padding-box,
+    linear-gradient(60deg, #040441, #00e8ff) border-box;
+
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fdf2e9;
+}
