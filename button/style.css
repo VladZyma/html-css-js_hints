@@ -101,11 +101,32 @@ BORDER LINIER GRADIENT
   padding: 1.6rem 3.2rem;
   border-radius: 10px;
 
-  border: 5px solid transparent;
+  border: 4px solid transparent;
   background: linear-gradient(#1753c2, #1753c2) padding-box,
     linear-gradient(60deg, #040441, #00e8ff) border-box;
 
   font-size: 2rem;
   font-weight: 600;
   color: #fdf2e9;
+}
+
+.border-btn-2 {
+  font-family: inherit;
+  cursor: pointer;
+
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  transition: all 0.5s;
+
+  border: 4px solid transparent;
+  border-image: linear-gradient(180deg, #bc10d8, rgba(80, 0, 250, 0.93) 100%) 1;
+
+  font-size: 2rem;
+  font-weight: 600;
+  color: #475ac7;
+}
+.border-btn-2:hover {
+  background: linear-gradient(180deg, #bc10d8, rgba(80, 0, 250, 0.93) 100%)
+    padding-box;
+  color: #fff;
 }
