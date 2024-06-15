@@ -108,3 +108,36 @@ INPUT TYPE EMAIL
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
+
+/* ======================
+INPUT TYPE SELECT
+======================*/
+.form-select div {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.form-select label {
+  display: block;
+  margin-bottom: 1.2rem;
+}
+.form-select select {
+  width: 100%;
+  padding: 1.2rem;
+
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
+  font-size: 1.8rem;
+  font-style: italic;
+  background-color: #83c0d3;
+  color: inherit;
+}
+.form-select select::placeholder {
+  color: #aaa;
+}
+.form-select select:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem rgb(49, 219, 78);
+}
