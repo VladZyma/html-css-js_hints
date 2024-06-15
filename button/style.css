@@ -66,4 +66,26 @@ REGULAR BUTTON
 }
 
 .regular-btn-2 {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+
+  display: inline-block;
+  min-width: 16rem;
+  min-height: 5.6rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 10px;
+  transition: all 0.3s;
+
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: #da751c;
+  color: #fdf2e9;
+}
+.regular-btn-2:hover {
+  background-color: #e99042;
+}
+.regular-btn-2:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem #ccec18;
 }
