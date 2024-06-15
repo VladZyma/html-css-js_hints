@@ -37,6 +37,9 @@ body {
 .title span {
   font-size: 1.4rem;
 }
+.title--white {
+  color: #fff;
+}
 .wrapper {
   text-align: center;
 }
@@ -47,6 +50,10 @@ body {
 }
 .wrapper--white {
   background-color: #fff;
+}
+
+.wrapper--dark {
+  background-color: #17213c;
 }
 
 /* ======================
@@ -152,6 +159,47 @@ INPUT TYPE EMAIL
   background-color: #cacad6;
   color: #5c5c5e;
   cursor: pointer;
+}
+
+.form-email-3 {
+  width: 100%;
+  max-width: 30rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+.form-email-3 input {
+  width: 100%;
+  min-height: 5rem;
+  flex: 1 1 auto;
+  padding: 0 2rem;
+
+  border: 1px solid #e6e6e6;
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+  background-color: #f9f9f9;
+  color: #737373;
+}
+.form-email-3 input:focus {
+  color: #000;
+}
+.form-email-3 button {
+  min-height: 5rem;
+  padding: 0 1.8rem;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  border-radius: 0 5px 5px 0;
+  background-color: #ff7b47;
+  color: #fff;
+  cursor: pointer;
+
+  transition: all 0.3s ease 0s;
+}
+.form-email-3 button:hover {
+  background-color: #dd5520;
 }
 
 /* ======================
