@@ -18,6 +18,7 @@ html {
   font-size: 62.5%;
 }
 body {
+  margin-bottom: 30px;
   background-color: #d3d3d3;
   font-family: sans-serif;
   font-size: 1.6rem;
@@ -38,6 +39,11 @@ body {
 }
 .wrapper {
   text-align: center;
+}
+.wrapper-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* =====================
@@ -181,4 +187,31 @@ PRESSED EFFECT
 .pressed-btn-2:active {
   box-shadow: none;
   transform: translateY(2px);
+}
+
+/* =====================
+TWO COLORS BUTTON WITH PRICE
+========================*/
+.two-colors-btn {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+
+  padding: 1px;
+  display: flex;
+  align-items: center;
+
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.two-colors-btn__text {
+  padding: 2rem 11rem;
+  text-transform: uppercase;
+  color: #f6f4f5;
+}
+.two-colors-btn__price {
+  padding: 2rem 10.5rem;
+  font-weight: 700;
+  color: #5c5c5e;
+  background-color: #e9e7ea;
 }
