@@ -265,3 +265,108 @@ INPUT TYPE SELECT
   outline: none;
   box-shadow: 0 0 0 0.4rem rgb(49, 219, 78);
 }
+
+/* ======================
+INPUT TYPE CHECKBOX
+======================*/
+.filter {
+  display: flex;
+  gap: 3rem;
+}
+.filter__item {
+  width: 20rem;
+  padding: 4rem 3rem;
+  border: 1px solid #29282d;
+}
+.filter__title {
+  margin-bottom: 2rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+.filter-color__label {
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #a5a5a5;
+  cursor: pointer;
+}
+.filter-color__label:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.filter-color__label + .filter-color__label {
+  padding-top: 2rem;
+}
+.filter-color__input {
+  /* reset default checkbox styles */
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  position: absolute;
+}
+.filter-color__input:checked + .filter-color__checkbox {
+  background-image: url('./check-on.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.filter-color__checkbox {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin-left: -16px;
+  margin-top: 2px;
+}
+.filter-color__checkbox--blue {
+  background-color: #00aeef;
+}
+.filter-color__checkbox--red {
+  background-color: #fe3e57;
+}
+.filter-color__checkbox--green {
+  background-color: #24d4ac;
+}
+
+.filter-size__label {
+  padding-left: 3.5rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #a5a5a5;
+  cursor: pointer;
+}
+.filter-size__label + .filter-size__label {
+  padding-top: 2rem;
+}
+.filter-size__label:last-child {
+  border: none;
+  padding-bottom: 0;
+}
+.filter-size__input {
+  /* reset default checkbox styles */
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  position: absolute;
+}
+.filter-size__input:checked + .filter-size__checkbox {
+  border: 1px solid #fe3e57;
+  background-image: url('./check-size.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.filter-size__input:checked ~ .filter-size__text {
+  color: #fe3e57;
+}
+.filter-size__checkbox {
+  position: absolute;
+  margin-left: -35px;
+  margin-top: 2px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #8d8d8d;
+  border-radius: 50%;
+}
