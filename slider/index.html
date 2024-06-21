@@ -9,152 +9,222 @@
     <title>Sliders</title>
   </head>
   <body>
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <div class="container">
+      <h1 class="title title--center">Slider v1</h1>
 
-        <link rel="stylesheet" href="./style.css" />
-        <script defer src="./script.js"></script>
-        <title>ACCORDION</title>
-      </head>
-      <body>
-        <div class="container">
-          <h1 class="title title--center">Slider v1</h1>
+      <div class="slider">
+        <button class="slider__item-btn-left">
+          <svg
+            class="slider__item-btn-icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+        </button>
 
-          <div class="slider">
-            <button class="slider__item-btn-left">
-              <svg
-                class="slider__item-btn-icon"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M15.75 19.5L8.25 12l7.5-7.5"
-                />
-              </svg>
-            </button>
+        <div class="slider__item-wrapper">
+          <div class="slider__item slider__item--hr slider__item--1">
+            <img class="slider__item-img" src="./hr.jpg" alt="hr specialist" />
 
-            <div class="slider__item-wrapper">
-              <div class="slider__item slider__item--hr slider__item--1">
-                <img
-                  class="slider__item-img"
-                  src="./hr.jpg"
-                  alt="hr specialist"
-                />
-
-                <blockquote class="slider__item-testimonial testimonial">
-                  <p class="testimonial__text">
-                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eaque voluptas odio tempora ipsum, minus accusamus,
-                    doloribus iste laudantium sed placeat corporis"
-                  </p>
-                  <p class="testimonial__author">Maria de Almedia</p>
-                  <p class="testimonial__job">
-                    Senior Product Manager at EDP Comercial
-                  </p>
-                </blockquote>
-              </div>
-            </div>
-
-            <div class="slider__item-wrapper">
-              <div class="slider__item slider__item--recruiter slider__item--2">
-                <img
-                  class="slider__item-img"
-                  src="./it-recruiter.jpg"
-                  alt="recruiter specialist"
-                />
-
-                <blockquote class="slider__item-testimonial testimonial">
-                  <p class="testimonial__text">
-                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eaque voluptas odio tempora ipsum, minus accusamus,
-                    doloribus iste laudantium sed placeat corporis"
-                  </p>
-                  <p class="testimonial__author">Benedita de Almedia</p>
-                  <p class="testimonial__job">
-                    Senior IT Recruiter at EDP Comercial
-                  </p>
-                </blockquote>
-              </div>
-            </div>
-
-            <div class="slider__item-wrapper">
-              <div class="slider__item slider__item--pm slider__item--3">
-                <img
-                  class="slider__item-img"
-                  src="./pm.jpg"
-                  alt="hr specialist"
-                />
-
-                <blockquote class="slider__item-testimonial testimonial">
-                  <p class="testimonial__text">
-                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eaque voluptas odio tempora ipsum, minus accusamus,
-                    doloribus iste laudantium sed placeat corporis"
-                  </p>
-                  <p class="testimonial__author">Leonor de Almedia</p>
-                  <p class="testimonial__job">
-                    Senior Product Manager at EDP Comercial
-                  </p>
-                </blockquote>
-              </div>
-            </div>
-
-            <div class="slider__item-wrapper">
-              <div
-                class="slider__item slider__item--ui-ux-designer slider__item--4"
-              >
-                <img
-                  class="slider__item-img"
-                  src="./ui-ux-designer.jpg"
-                  alt="hr specialist"
-                />
-
-                <blockquote class="slider__item-testimonial testimonial">
-                  <p class="testimonial__text">
-                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eaque voluptas odio tempora ipsum, minus accusamus,
-                    doloribus iste laudantium sed placeat corporis"
-                  </p>
-                  <p class="testimonial__author">Maria de Almedia</p>
-                  <p class="testimonial__job">
-                    UI/UX Designer at EDP Comercial
-                  </p>
-                </blockquote>
-              </div>
-            </div>
-
-            <button class="slider__item-btn-right">
-              <svg
-                class="slider__item-btn-icon"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
-                />
-              </svg>
-            </button>
-
-            <div class="slider__dots">
-              <button class="slider__dot slider__dot--fill">&nbsp</button>
-              <button class="slider__dot">&nbsp</button>
-              <button class="slider__dot">&nbsp</button>
-              <button class="slider__dot">&nbsp</button>
-            </div>
+            <blockquote class="slider__item-testimonial testimonial">
+              <p class="testimonial__text">
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+                voluptas odio tempora ipsum, minus accusamus, doloribus iste
+                laudantium sed placeat corporis"
+              </p>
+              <p class="testimonial__author">Maria de Almedia</p>
+              <p class="testimonial__job">
+                Senior Product Manager at EDP Comercial
+              </p>
+            </blockquote>
           </div>
         </div>
-      </body>
-    </html>
+
+        <div class="slider__item-wrapper">
+          <div class="slider__item slider__item--recruiter slider__item--2">
+            <img
+              class="slider__item-img"
+              src="./it-recruiter.jpg"
+              alt="recruiter specialist"
+            />
+
+            <blockquote class="slider__item-testimonial testimonial">
+              <p class="testimonial__text">
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+                voluptas odio tempora ipsum, minus accusamus, doloribus iste
+                laudantium sed placeat corporis"
+              </p>
+              <p class="testimonial__author">Benedita de Almedia</p>
+              <p class="testimonial__job">
+                Senior IT Recruiter at EDP Comercial
+              </p>
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="slider__item-wrapper">
+          <div class="slider__item slider__item--pm slider__item--3">
+            <img class="slider__item-img" src="./pm.jpg" alt="hr specialist" />
+
+            <blockquote class="slider__item-testimonial testimonial">
+              <p class="testimonial__text">
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+                voluptas odio tempora ipsum, minus accusamus, doloribus iste
+                laudantium sed placeat corporis"
+              </p>
+              <p class="testimonial__author">Leonor de Almedia</p>
+              <p class="testimonial__job">
+                Senior Product Manager at EDP Comercial
+              </p>
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="slider__item-wrapper">
+          <div
+            class="slider__item slider__item--ui-ux-designer slider__item--4"
+          >
+            <img
+              class="slider__item-img"
+              src="./ui-ux-designer.jpg"
+              alt="hr specialist"
+            />
+
+            <blockquote class="slider__item-testimonial testimonial">
+              <p class="testimonial__text">
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+                voluptas odio tempora ipsum, minus accusamus, doloribus iste
+                laudantium sed placeat corporis"
+              </p>
+              <p class="testimonial__author">Maria de Almedia</p>
+              <p class="testimonial__job">UI/UX Designer at EDP Comercial</p>
+            </blockquote>
+          </div>
+        </div>
+
+        <button class="slider__item-btn-right">
+          <svg
+            class="slider__item-btn-icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </button>
+
+        <div class="slider__dots">
+          <button class="slider__dot slider__dot--fill">&nbsp</button>
+          <button class="slider__dot">&nbsp</button>
+          <button class="slider__dot">&nbsp</button>
+          <button class="slider__dot">&nbsp</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDER V2 -->
+    <section class="section-slider2">
+      <div class="container">
+        <h2 class="title title--center">Slider v2</h2>
+        <div class="section-slider2__header">
+          <h3 class="section-slider2__subtitle">Not sure yet?</h3>
+          <h2 class="section-slider2__title">
+            Millions of Bankists are already making their lifes simpler.
+          </h2>
+        </div>
+
+        <div class="slider2">
+          <div class="slider2__item slider2__item--1">
+            <div class="slider2__testimonial">
+              <h5 class="slider2__testimonial-title">
+                Best financial decision ever!
+              </h5>
+              <blockquote class="slider2__testimonial-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Accusantium quas quisquam non? Quas voluptate nulla minima
+                deleniti optio ullam nesciunt, numquam corporis et asperiores
+                laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+                id alias reiciendis, perferendis facere pariatur dolore veniam
+                autem esse non voluptatem saepe provident nihil molestiae.
+              </blockquote>
+              <address class="silder2__testimonial-author">
+                <img
+                  class="silder2__testimonial-img"
+                  src="./img/slider2/user-1.jpg"
+                  alt="author photo"
+                />
+                <h6 class="slider2__testimonial-name">Aarav Lynn</h6>
+                <p class="slider2__testimonial-location">San Francisco, USA</p>
+              </address>
+            </div>
+          </div>
+
+          <div class="slider2__item slider2__item--2">
+            <div class="slider2__testimonial">
+              <h5 class="slider2__testimonial-title">
+                The last step to becoming a complete minimalist
+              </h5>
+              <blockquote class="slider2__testimonial-text">
+                Quisquam itaque deserunt ullam, quia ea repellendus provident,
+                ducimus neque ipsam modi voluptatibus doloremque, corrupti
+                laborum. Incidunt numquam perferendis veritatis neque
+                repellendus. Lorem, ipsum dolor sit amet consectetur adipisicing
+                elit. Illo deserunt exercitationem deleniti
+              </blockquote>
+              <address class="silder2__testimonial-author">
+                <img
+                  class="silder2__testimonial-img"
+                  src="./img/slider2/user-2.jpg"
+                  alt="author photo"
+                />
+                <h6 class="slider2__testimonial-name">Miyah Miles</h6>
+                <p class="slider2__testimonial-location">London, UK</p>
+              </address>
+            </div>
+          </div>
+
+          <div class="slider2__item slider2__item--3">
+            <div class="slider2__testimonial">
+              <h5 class="slider2__testimonial-title">
+                Finally free from old-school banks
+              </h5>
+              <blockquote class="slider2__testimonial-text">
+                Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+                incidunt commodi architecto numquam omnis nulla autem,
+                necessitatibus blanditiis modi similique quidem. Odio aliquam
+                culpa dicta beatae quod maiores ipsa minus consequatur error
+                sunt, deleniti saepe aliquid quos inventore sequi.
+                Necessitatibus id alias reiciendis, perferendis facere.
+              </blockquote>
+              <address class="silder2__testimonial-author">
+                <img
+                  class="silder2__testimonial-img"
+                  src="./img/slider2/user-3.jpg"
+                  alt="author photo"
+                />
+                <h6 class="slider2__testimonial-name">Francisco Gomes</h6>
+                <p class="slider2__testimonial-location">Lisbon, Portugal</p>
+              </address>
+            </div>
+          </div>
+
+          <button class="slider2__btn slider2__btn--left">&larr;</button>
+          <button class="slider2__btn slider2__btn--right">&rarr;</button>
+          <div class="slider2__dots"></div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
